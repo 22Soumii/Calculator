@@ -1,0 +1,193 @@
+*{
+    background-color:rgb(251, 153, 83);
+  box-sizing: border-box; 
+}
+
+h4{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    text-align: center;
+    margin: 7rem 0 5rem 0;
+    color: #fff;
+}
+div{
+    margin: auto;
+}
+.container{
+    border-radius: 15px;
+    background-color:whitesmoke;
+    padding: 1rem;
+    width: 37.2vh;
+    box-shadow: 1px 2px 1px 1px  rgb(255, 68, 0);
+}
+.row{
+    background-color:whitesmoke;
+    position: relative;
+    margin: 1px;
+    padding: .2rem 0;
+    text-align: center;
+    border-radius: 1px 0;
+    justify-content: center;
+}
+.button{
+    margin: 3px 1.1px;
+    position:relative;
+    border: none;
+    width: 54.5px;
+    height: 45px;
+    font-weight: 600;
+    font-size: larger;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgb(220, 219, 219);
+}
+.button:hover{
+    background-color:lightgray;
+}
+#operator{
+    color: rgb(255, 68, 0);
+}
+#operator2{
+    color:whitesmoke;
+    background-color: rgb(255, 68, 0);
+    font-size: x-large;
+}
+#operator2:hover{
+    background-color:lightgray;
+    color: rgb(255, 68, 0);
+}
+input[type=text]{
+    margin:auto;
+    margin-bottom: 5px;
+    font-size: larger;
+    padding: 25px 6px;
+    border-radius: 5px;
+    width: auto;
+    height:auto;
+    background-color: #fff;
+    border:none;
+    text-align: right;
+    box-shadow: 1px 1px 1px 1px rgb(220, 219, 219);
+}
+input[type=text]:hover{
+    background-color:whitesmoke;
+    box-shadow: 1px 1px 1px 1px rgb(220, 219, 219);
+}
+input[type=text]:focus{
+    box-shadow: 1px 1px 1px 1px rgb(220, 219, 219);
+}
+
+/*             Media screen for width 14000px                     */    
+
+@media screen and (max-width:1400px) {
+    div{
+        margin: auto;
+    }
+    .container{
+        padding: 1rem;
+        width: 35vh;
+    }
+}
+
+@media screen and (max-width:1295px) {
+    .container{
+        padding: 1rem;
+        width: 37vh;
+    }
+    h4{
+        margin: 5rem 0 5rem 0;
+    }
+}
+
+@media screen and (max-width:1025px) {
+    div{
+        margin: auto;
+    }
+    .container{
+        padding: 1rem;
+        width: 38vh;
+    }
+    input[type=text]{
+        margin:auto;
+        font-size: larger;
+        padding: 20px 1px;
+        width:auto;
+        height:auto;
+    }
+    h4{
+    margin: 2rem 0 5rem 0;
+    }
+}
+
+@media screen and (max-width:821px) {
+    div{
+        margin: auto;
+    }
+    .container{
+        padding: 1rem;
+        width: 38vh;
+    }
+    h4{
+        margin: 7rem 0 5rem 0;
+    }
+}
+
+@media screen and (max-width:550px) {
+    div{
+        margin: auto;
+    }
+    .container{
+        padding: 1rem;
+        width: 38vh;
+    }
+    h4{
+        margin: 5rem 0 5rem 0;
+    }
+}
+@media screen and (max-width:400px) {
+    div{
+        margin: auto;
+    }
+    .container{
+        padding: 1rem;
+        width: 38vh;
+    }
+    h4{
+        margin: 5rem 0 5rem 0;
+    }
+}
+@media screen and (max-width:415px) {
+    .container{
+        padding: 1rem;
+        width: 38vh;
+    }
+    h4{
+        margin: 5rem 0 5rem 0;
+    }
+}
+@media screen and (max-width:380px) {
+    .container{
+        padding: 1rem;
+        width: 38vh;
+    }
+    h4{
+        margin: 5rem 0 5rem 0;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .container{
+        padding: 1rem;
+        width: 35vh;
+    }
+    h4{
+        margin: 1rem 0 5rem 0;
+    }
+    input[type=text]{
+        margin:auto;
+        font-size: large;
+        padding: 25px 1px;
+        width:auto;
+        height:auto;
+    }
+}
